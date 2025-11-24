@@ -41,3 +41,13 @@ button {
 .top-nav {
     z-index: 500;
 }
+
+[data-card] {
+    resize: both;
+    overflow: auto;
+}
+
+.font-size-btn.active, .font-style-btn.active, .note-size-btn.active {
+    background-color: #60a5fa;
+    color: white;
+}
