@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.grid-background {
+    height: 100%;
+    background-color: #f2f2f2;
+    background-image: 
+        linear-gradient(to right, #ccc 1px, transparent 1px), 
+        linear-gradient(to bottom, #ccc 1px, transparent 1px);
+    background-size: 20px 20px; 
+    box-sizing: border-box;
+}
+
+h1, p {
+    color: #333;
+}
+
+#note {
+    touch-action: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#note.dragging {
+    cursor: grabbing;
+}
+
+button {
+    transition: all .5s ease;
+    border-radius: 45px;
+    color: #333;
+    margin: 10px;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.top-nav {
+    z-index: 500;
+}
